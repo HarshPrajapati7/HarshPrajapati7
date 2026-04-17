@@ -2,7 +2,7 @@
 <h3 align="center">Computer Science Undergraduate | AI Engineer | Systems Builder | Research-Driven Developer</h3>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00C2FF&center=true&vCenter=true&width=980&lines=Building+AI%2C+edge+systems%2C+and+full-stack+products;Turning+complex+ideas+into+scalable+low-latency+features;Hackathon+winner+%7C+Researcher+%7C+Designer+%7C+Builder;Welcome+to+my+GitHub+command+center" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00C2FF&center=true&vCenter=true&width=980&lines=Building+AI%2C+Edge+Computing%2C+and+full-stack+products;Exploring+Quantum+Computing%2C+Mechatronics%2C+and+intelligent+systems;Turning+complex+ideas+into+scalable+low-latency+features;Hackathon+winner+%7C+Researcher+%7C+Designer+%7C+Builder" alt="Typing SVG" />
 </div>
 
 <div align="center">
