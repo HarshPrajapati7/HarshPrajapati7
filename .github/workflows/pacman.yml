@@ -1,33 +1,32 @@
-name: Generate Realistic Pac-Man Animation
+name: Generate Pac-Man Contribution Graph
 
 on:
   schedule:
-    # Runs automatically every 24 hours
-    - cron: "0 */24 * * *" 
-  
-  # Allows you to trigger it manually from the Actions tab
+    - cron: "0 0 * * *"
   workflow_dispatch:
-  
-  # Runs on every push to the main branch
   push:
     branches:
-    - main
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pacman-contribution-graph
+  cancel-in-progress: true
 
 jobs:
   generate:
-    permissions: 
-      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
     steps:
       - name: Generate pacman-contribution-graph.svg
-        # This is the dedicated, high-quality Pac-Man engine
-        uses: abozanona/pacman-contribution-graph@main
+        uses: abozanona/pacman-contribution-graph@v2.4.0
         with:
           github_user_name: ${{ github.repository_owner }}
-          
-      - name: Push to the 'output' branch
+
+      - name: Publish SVG files to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
