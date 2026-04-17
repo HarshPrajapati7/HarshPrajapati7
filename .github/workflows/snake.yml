@@ -1,11 +1,11 @@
-name: Generate Pac-Man / Snake Animation
+name: Generate Realistic Pac-Man Animation
 
 on:
   schedule:
-    # Runs automatically every 12 hours
-    - cron: "0 */12 * * *" 
+    # Runs automatically every 24 hours
+    - cron: "0 */24 * * *" 
   
-  # Allows you to run the action manually from the Actions tab
+  # Allows you to trigger it manually from the Actions tab
   workflow_dispatch:
   
   # Runs on every push to the main branch
@@ -21,16 +21,12 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Generate the SVG files
-        # Using the standard Platane/snk generator
-        uses: Platane/snk/svg-only@v3
+      - name: Generate pacman-contribution-graph.svg
+        # This is the dedicated, high-quality Pac-Man engine
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Outputting the exact file names your README is looking for
-          outputs: |
-            dist/pacman-contribution-graph.svg
-            dist/pacman-contribution-graph-dark.svg?palette=github-dark
-
+          
       - name: Push to the 'output' branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
