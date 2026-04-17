@@ -28,12 +28,12 @@ I'm a programmer, graphics designer, animation and video designer, and an AI Com
 * **Academics:** Qualified for JEE Advanced and a 2x Olympiad Silver Medalist.
 
 **Experience & Interests:**
-* I have 5 years of coding experience and am proficient with Python, Java, C++, JavaScript, React, HTML, CSS, and SQL databases.
+* I have 5 years of coding experience and am proficient with Machine Coding.
 * I am deeply interested in Artificial Intelligence, preferring it over basic computer science because AI is the future. 
 * Beyond coding, I have 3 years of experience in graphics design, video editing, animation, 3D, and audio designing.
 
 **Achievements & Research:**
-* 🏆 **Hackathons:** 4x Hackathon Winner and 19x Finalist. (Including 7th Rank in the NASA Space Apps Challenge and winning the Web3 track at RIFT 2026 for "Opportunity OS").
+* 🏆 **Hackathons:** 4x Hackathon Winner and 19x Finalist.
 * 📝 **Research:** Authored 3 Research Papers across domains like Quantum Computing, Artificial Intelligence, Cyber Security, and Electronics.
 
 I'm always exploring new technologies, so come join me on this exciting journey!
