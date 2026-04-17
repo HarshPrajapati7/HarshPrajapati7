@@ -19,7 +19,7 @@
 
 ###
 
-## 👨‍💻 About Me
+## About Me
 
 I'm a programmer, graphics designer, animation and video designer, and an AI Computer Science Engineer and inventor. I am currently pursuing my B.Tech specializing in Artificial Intelligence at the **University of Lucknow** (Expected 2027). 
 
