@@ -33,7 +33,7 @@
   </a>
 </div>
 
-## Pac-Man Contribution Arena
+## Contribution Arena
 
 <div align="center">
   <picture>
