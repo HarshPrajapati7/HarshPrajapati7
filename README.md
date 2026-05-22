@@ -47,6 +47,12 @@
 
 Computer Science undergraduate with a strong foundation in software engineering, edge AI, and distributed systems. I enjoy designing, implementing, and optimizing end-to-end products, from fine-tuning large vision-language models to building decentralized systems and high-performance backends. I like ambitious ideas, clean execution, and solving hard technical problems under pressure.
 
+## LeetCode Stats
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/harshprajapati7?theme=light&font=Karma&ext=heatmap" alt="LeetCode Stats" />
+</p>
+
 ## Education
 
 - **University of Lucknow** — B.Tech in Computer Science and Engineering (Artificial Intelligence)
