@@ -49,9 +49,20 @@ Computer Science undergraduate with a strong foundation in software engineering,
 
 ## LeetCode Stats
 
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/harshprajapati7?theme=light&font=Karma&ext=heatmap" alt="LeetCode Stats" />
-</p>
+<picture>
+  <source
+    srcset="https://leetcard.jacoblin.cool/harshprajapati7?theme=dark&font=Karma&ext=heatmap"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://leetcard.jacoblin.cool/harshprajapati7?theme=light&font=Karma&ext=heatmap"
+    media="(prefers-color-scheme: light)"
+  />
+  <img
+    src="https://leetcard.jacoblin.cool/harshprajapati7?theme=dark&font=Karma&ext=heatmap"
+    alt="LeetCode Stats"
+  />
+</picture>
 
 ## Education
 
